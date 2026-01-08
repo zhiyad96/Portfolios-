@@ -31,14 +31,14 @@ export default function App() {
       description: "Frondent e-commerce solution with DB Json backend and React frontend",
       tech: ["React", "HTML", "Tailwind Css", "DB json"],
       link: "https://veloce-react.vercel.app/",
-      img: "src/images/Ecommerce.png"
+      img: "public/images/Ecommerce.png"
     },
     {
       title: "AI Attendance system",
       description: "Live analytics  with AI ",
       tech: ["Python", "FastAPI", "Socket.io"],
       link: "#",
-      img: "/src/images/ai.png"
+      img: "/public/images/ai.png"
     },
   ];
 
@@ -148,7 +148,7 @@ export default function App() {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center">
                     <img
-                      src="\src\images\zhiyad.jpeg"
+                      src="\public\images\zhiyad.jpeg"
                       alt="Profile"
                       className="w-full h-full object-cover"
                     />
